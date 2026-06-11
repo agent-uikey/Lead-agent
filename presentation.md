@@ -553,13 +553,16 @@ Billion-dollar companies run by 3 humans and 1,000 agents. Software that writes 
 <!-- Person in an interview setting or a QA bubble icon. -->
 ---
 
-### Interview Q&A (3/3)
+### Interview Q&A (2/2)
 
-**Q:** How do agents use memory?
-**A:** Short-term (context window) for immediate working memory, and long-term (vector DBs/SQL) to recall past interactions, semantic facts, and preferences.
+- **How do you secure agent tool access?**
+  - Human-in-the-loop, least privilege APIs, read-only modes.
+- **What are the limits of current agent frameworks?**
+  - Latency, context window limits, cost, and reliability.
+- **How do you handle hallucinations?**
+  - Grounding, reflection, prompt engineering.
 
-**Q:** How do multi-agent systems work?
-**A:** Complex tasks are decomposed and routed to specialized agents (e.g., Researcher, Coder, Reviewer) orchestrated by a manager, using frameworks like LangGraph or CrewAI.
+<!-- QA bubble icon. -->
 
 ---
 
